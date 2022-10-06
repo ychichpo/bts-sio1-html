@@ -1,0 +1,68 @@
+.porte-avion {
+    background-color: forestgreen !important;
+}
+
+.porte-avion::before {
+    font-weight: bold;
+    color: black;
+    content: "PA";
+}
+
+.cuirasse {
+    background-color: purple !important;
+}
+
+.cuirasse::before {
+    font-weight: bold;
+    color: black;
+    content: "CU";
+}
+
+.croiseur {
+    background-color: springgreen !important;
+}
+
+.croiseur::before {
+    font-weight: bold;
+    color: black;
+    content: "CR";
+}
+
+.torpilleur {
+    background-color: orange !important;
+}
+
+.torpilleur::before {
+    font-weight: bold;
+    color: black;
+    content: "TP";
+}
+
+.sous-marin {
+    background-color: lawngreen !important;
+}
+
+.sous-marin::before {
+    font-weight: bold;
+    color: black;
+    content: "SM";
+}
+
+.hit {
+    background-color: red !important;
+}
+
+.hit::before {
+    font-weight: bold;
+    color: black;
+    content: "H";
+}
+
+.miss {
+    background-color: yellow !important;
+}
+.miss::before {
+    font-weight: bold;
+    color: black;
+    content: "M";
+}
